@@ -1,22 +1,16 @@
-﻿  Main.cpp
-E:\dev\Pong\Pong\src\Main.cpp(34,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(35,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(70,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(71,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(83,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(87,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(107,56): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(107,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(114,22): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(115,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(115,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(119,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(119,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(127,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(127,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(128,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(128,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(133,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-E:\dev\Pong\Pong\src\Main.cpp(133,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  GameState.cpp
+  Main.cpp
+E:\dev\Pong\Pong\src\Main.cpp(39,82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(40,77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(64,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(64,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(76,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(76,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(77,121): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(82,103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Pong.vcxproj -> E:\dev\Pong\Build\Debug x64\Pong.exe

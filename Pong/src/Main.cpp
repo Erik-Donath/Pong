@@ -25,8 +25,8 @@ void HandleSpecialInput() {
 	if (IsKeyPressed(KEY_R)) Reset();
 }
 void HandleInput() {
-	if (IsKeyDown(KEY_W)  && leftPaddel.y  > 0) leftPaddel.y  -= 450.0f * GetFrameTime();
-	if (IsKeyDown(KEY_UP) && rightPaddel.y > 0) rightPaddel.y -= 450.0f * GetFrameTime();
+	if (IsKeyDown(KEY_W)  && leftPaddel.y  > 0) leftPaddel.y  -= PaddelSpeed * GetFrameTime();
+	if (IsKeyDown(KEY_UP) && rightPaddel.y > 0) rightPaddel.y -= PaddelSpeed * GetFrameTime();
 	if (IsKeyDown(KEY_S)    && leftPaddel.y  < Height - 100) leftPaddel.y  += 450.0f * GetFrameTime();
 	if (IsKeyDown(KEY_DOWN) && rightPaddel.y < Height - 100) rightPaddel.y += 450.0f * GetFrameTime();
 }
@@ -36,7 +36,7 @@ void UpdateGame() {
 	ball.Eco();
 	ball.Move();
 
-	if (CheckCollisionCircleRec(ball.position, 5, leftPaddel)) ball.speed.x = fabs(ball.speed.x);
+	if (CheckCollisionCircleRec(ball.position, 5, leftPaddel))  ball.speed.x =  fabs(ball.speed.x);
 	if (CheckCollisionCircleRec(ball.position, 5, rightPaddel)) ball.speed.x = -fabs(ball.speed.x);
 	
 	if (ball.position.x < 0) {
@@ -55,7 +55,7 @@ void RenderGame() {
 	DrawRectangleRec(leftPaddel,  darkGlobalColor);
 	DrawRectangleRec(rightPaddel, darkGlobalColor);
 
-	if (!state.timeout.Check()) {
+	if (!state.timeout.InTimeout()) {
 		for (unsigned int i = BallEcosCount - 1; i > 0; i--) {
 			Vector2 eco = ball.ecos[i];
 			float near = 1.0f - (i / (float)BallEcosCount); // How near eco is to ball
@@ -70,7 +70,7 @@ void RenderOverlay() {
 		DrawRectangle(0, 0, Width, Height, { 20, 20, 20, 192 });
 		DrawText(pauseText, HWidth - MeasureText(pauseText, 20) / 2, HHeight - 10, 20, state.GetMainColor());
 	}
-	else if (state.timeout.Check()) {
+	else if (state.timeout.InTimeout()) {
 		const char* timeoutText = "Ready?";
 		double animation = state.timeout.InvertedProgress();
 		DrawCircle(HWidth, HHeight, animation * 70.0f, state.GetMainColor(animation * 25 + 10));
@@ -89,7 +89,7 @@ void RunGame() {
 
 	while (!WindowShouldClose()) {
 		HandleSpecialInput();
-		if (!state.timeout.Check() && !state.paused) {
+		if (!state.timeout.InTimeout() && !state.paused) {
 			UpdateGame();
 		}
 

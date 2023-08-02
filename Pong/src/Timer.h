@@ -9,7 +9,7 @@ struct Timer {
 		start = GetTime();
 		end = start + seconds;
 	}
-	inline bool   Check() {
+	inline bool InTimeout() {
 		return GetTime() < end;
 	}
 	inline double GetDelay() {

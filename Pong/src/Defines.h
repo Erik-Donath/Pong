@@ -1,6 +1,8 @@
 #pragma once
 
 #define GameTimeoutDelay 2
+#define PaddelSpeed 450
+#define BallStartSpeed 300
 #define BallEcosCount 15
 
 //GetScreen... is in raylib.h defined
