@@ -1,0 +1,22 @@
+﻿  Main.cpp
+E:\dev\Pong\Pong\src\Ball.h(31,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.h(32,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.h(51,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.h(53,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(39,80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(40,77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(62,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(64,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(64,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(76,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(76,41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(77,121): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+E:\dev\Pong\Pong\src\Main.cpp(82,103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  0 of 26 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pong.vcxproj -> E:\dev\Pong\Build\Release x64\Pong.exe
