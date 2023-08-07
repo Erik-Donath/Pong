@@ -1,4 +1,9 @@
-﻿  GameState.cpp
+﻿  Ball.cpp
+E:\dev\Pong\Pong\src\Ball.cpp(22,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.cpp(23,26): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.cpp(43,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\dev\Pong\Pong\src\Ball.cpp(45,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  GameState.cpp
   Main.cpp
 E:\dev\Pong\Pong\src\Main.cpp(39,82): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 E:\dev\Pong\Pong\src\Main.cpp(40,77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data

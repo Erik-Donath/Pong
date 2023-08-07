@@ -18,7 +18,7 @@ void Reset() {
 
 	leftPaddel  = { 5.0f,          HHeight - 50.0f, 10.0f, 100.0f };
 	rightPaddel = { Width - 15.0f, HHeight - 50.0f, 10.0f, 100.0f };
-	printf("INFO: Game reseted!\n");
+	printf("[INFO]: Game reseted!\n");
 }
 void HandleSpecialInput() {
 	if (IsKeyPressed(KEY_SPACE)) state.Pause();
@@ -40,12 +40,12 @@ void UpdateGame() {
 	if (CheckCollisionCircleRec(ball.position, 5, rightPaddel)) ball.speed.x = -fabs(ball.speed.x);
 	
 	if (ball.position.x < 0) {
-		printf("INFO: Right won the Game!\n");
+		printf("[INFO]: Right won the Game!\n");
 		Reset();
 		state.winner = Winner::Right;
 	}
 	if (ball.position.x > Width) {
-		printf("INFO: Left won the Game!\n");
+		printf("[INFO]: Left won the Game!\n");
 		Reset();
 		state.winner = Winner::Left;
 	}
