@@ -1,3 +1,8 @@
 .vs/
 Pong/Pong.vcxproj.filters
 Pong/Pong.vcxproj.user
+
+Build/Debug Win32/intermediates/
+Build/Debug x64/intermediates/
+Build/Release Win32/intermediates/
+Build/Release x64/intermediates/
