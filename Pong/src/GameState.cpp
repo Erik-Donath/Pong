@@ -41,7 +41,7 @@ void GameState::Reset() {
 		mainColor = { 204, 51, 255, 255 };
 		break;
 	case 9:
-		mainColor = { 0, 151, 0 };
+		mainColor = { 0, 151, 0, 255 };
 		break;
 	}
 }
